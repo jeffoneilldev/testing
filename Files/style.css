@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana; sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-family: Verdana;
+    font-size: 1em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    background-color: green;
+    color: white;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.card a {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+    text-align:center;
+}
+
+h3 {
+    background-color: yellow;
+    color: black;
+    text-align:center;
+}
+
+h4 {
+    background-color: red;
+    color: white;
+    text-align:center;
+}
+
+p {
+    font-family:impact;
+    font-size:2em;
+    text-align:center;
+}
+
+footer {
+    background-color:aqua;
+    text-align:left;
+}
