@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This page is using floats</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <style>
+            body, html {
+                margin:0;
+                padding:0;
+                text-align:center;
+            }
+            
+            .left {
+                float:left;
+                background-color:orange;
+            }
+            
+            .column {
+                width:50%;
+                height:400px;
+            }
+            
+            .right {
+                float:right;
+                background-color:green;
+            }
+            
+            footer {
+                background-color:pink;
+                clear:left;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Page One</a></li>
+                <li><a href="page2.html">Page Two</a></li>
+                <li><a href="page3.html">Page Three</a></li>
+                <li><a href="page4.html">Page Four</a></li>
+            </ul>
+        </nav>
+        <h1>Just added this page</h1>
+        <p>I put a style in the head to create below...</p>
+          <section class="left column">Floated to the left</section>
+          <aside class="right column">Floated to the right</aside>
+          <footer>Footer (not floated)</footer>
+    </body>
+</html>

@@ -14,3 +14,6 @@ I then create a Git repository and add all my files to it. This repository keeps
 I Know my files are safe in Github.
 
 I have validated my HTML files in the W3C HTML validator and also my CSS files in the W3C CSS validator.
+
+#### Site update
+I have added a fourth page displaying sections "floating" to the left and right.
